@@ -1,0 +1,58 @@
+{
+    "_id" : ObjectId("5944c0703e859d1390ae3c34"),
+    "index" : 1,
+    "name" : "First survey",
+    "questions" : [ 
+        {
+            "btype" : "bmultiple",
+            "type" : "qmultiple",
+            "title" : "What major do you like?",
+            "choices" : [ 
+                {
+                    "choice_value" : "IT"
+                }, 
+                {
+                    "choice_value" : "BME"
+                }, 
+                {
+                    "choice_value" : "EE"
+                }, 
+                {
+                    "choice_value" : "BT"
+                }
+            ]
+        }, 
+        {
+            "btype" : "bmultiple",
+            "type" : "qmultiple",
+            "title" : "What color do you like",
+            "choices" : [ 
+                {
+                    "choice_value" : "Red"
+                }, 
+                {
+                    "choice_value" : "Green"
+                }, 
+                {
+                    "choice_value" : "Pink"
+                }
+            ]
+        }, 
+        {
+            "btype" : "bdropdown",
+            "type" : "qdropdown",
+            "title" : "what kind of film do you like",
+            "choices" : [ 
+                {
+                    "choice_value" : "Cartoon"
+                }, 
+                {
+                    "choice_value" : "honor"
+                }, 
+                {
+                    "choice_value" : "Romantic"
+                }
+            ]
+        }
+    ]
+}
